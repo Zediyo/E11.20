@@ -3,8 +3,17 @@ module.exports = {
 		"node": true,
 		"commonjs": true,
 		"es2021": true,
+		"browser": true,
 	},
-	"extends": "eslint:recommended",
+	"extends":
+	[
+		"eslint:recommended",
+		"plugin:react/recommended"
+	],
+	"plugins":
+	[
+		"react"
+	],
 	"overrides": [
 	],
 	"parserOptions": {
